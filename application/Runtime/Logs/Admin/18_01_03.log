@@ -240,3 +240,237 @@ ERR: 模板不存在:./application/Admin/View/Main/home.html
 [ 2018-01-03T17:46:21+08:00 ] 127.0.0.1 /Admin/Main/home.html
 ERR: 模板不存在:./application/Admin/View/Main/home.html
 
+[ 2018-01-03T19:51:10+08:00 ] 127.0.0.1 /Admin/Dept/dels/ids/
+ERR: 非法操作:dels
+
+[ 2018-01-03T20:18:32+08:00 ] 127.0.0.1 /Main/info-reg.html
+ERR: 非法操作:info-reg
+
+[ 2018-01-03T20:21:09+08:00 ] 127.0.0.1 /Main/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2018-01-03T20:21:11+08:00 ] 127.0.0.1 /Main/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2018-01-03T22:21:22+08:00 ] 127.0.0.1 /Main/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2018-01-03T22:24:15+08:00 ] 127.0.0.1 /js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-03T22:24:15+08:00 ] 127.0.0.1 /css/info-reg.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-03T22:24:15+08:00 ] 127.0.0.1 /css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-03T22:24:15+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-03T22:24:15+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-03T22:24:15+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-03T22:25:14+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:25:14+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:25:14+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:25:14+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:25:14+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:25:24+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:25:24+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:25:24+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:25:24+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:25:24+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:26:35+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:26:35+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:26:35+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:26:35+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:26:35+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:28:44+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:28:44+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:28:44+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:28:44+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:28:44+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:30:36+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:30:36+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:30:36+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:30:36+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:30:36+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:51+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:51+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:51+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:53+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:53+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:53+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:53+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:53+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:55+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:55+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:55+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:55+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:31:55+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:38:02+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:38:02+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:38:02+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:38:02+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:38:36+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:38:36+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:38:36+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:38:36+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:38:36+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:39:45+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:39:45+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:39:45+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:40:22+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:40:22+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:40:22+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:42:03+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:42:03+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:42:03+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:42:03+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:44:25+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:44:25+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:44:25+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:45:40+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:45:40+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:45:40+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:50:12+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:50:12+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/jquery.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:50:12+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/common.js
+ERR: 非法操作:__ADMINJS_
+
+[ 2018-01-03T22:50:12+08:00 ] 127.0.0.1 /Dept/__ADMINJS_/WdatePicker.js
+ERR: 非法操作:__ADMINJS_
+

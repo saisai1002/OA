@@ -15,6 +15,11 @@ use Think\Controller;
 //3.声明当前用户创建的控制器并继承基类Controller
 class TestController extends Controller{
     function index(){
-        $this->display('');
+        $str = 3;
+        $int = 20;
+        $this->assign('s',$str);
+        $this->assign('a',$int);
+
+        $this->display('index');
     }
 }
