@@ -10,11 +10,13 @@ namespace Admin\Controller;
 use Think\Controller;
 
 class MainController extends Controller{
+    //后台进入的首页面
     public function index(){
         $this->display('index');
     }
 
+    //后台进入首页面的中间部分
     public function home(){
-        $this->display();
+        $this->display('home');
     }
 }

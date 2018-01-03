@@ -18,4 +18,10 @@ return array(
         '__ADMINJS__'  =>  '/Public/Admin/js',
         '__ADMINIMG__' =>  '/Public/Admin/images',
     ),
+
+    //允许访问的模块
+    'MODULE_ALLOW_LIST' => array('Admin','Home'),
+
+    //默认访问的模块
+    'DEFAULT_MODULE'    => 'Admin',
 );

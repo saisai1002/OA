@@ -7,3 +7,6 @@ ERR: 模板不存在:./application/Home/View/Test/inde.html
 [ 2018-01-03T17:11:52+08:00 ] 127.0.0.1 /index.php/home/Test/index
 ERR: 模板不存在:./application/Home/View/Test/inde.html
 
+[ 2018-01-03T19:00:46+08:00 ] 127.0.0.1 /Home/Main/index
+ERR: 无法加载控制器:Main
+
