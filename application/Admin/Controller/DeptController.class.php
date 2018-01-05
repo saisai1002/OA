@@ -15,13 +15,32 @@ class DeptController extends Controller{
     //显示部门列表页
     public function index(){
         //实例化模型并调用select方法查询数据表中的数据
+
+        $pagesize = 2;
+
+        $pageno = I('get.p',1);
+
+
+        //$data = D('dept');
+        //dump($data);die;
         $list = D('dept')->alias('d1')
             ->field('d1.dept_id,d1.dept_name,d1.dept_sort,d1.dept_remark,d1.dept_pid,d1.dept_level,d2.dept_name as name')
+            ->page($pageno,$pagesize)
             ->join('left join oa_dept d2 on d1.dept_pid = d2.dept_id')
             ->select();
-        $list = getTree($list);
+        //$list = getTree($list);
         //dump($list);die;
         $this->assign('data',$list);
+
+
+        //当前表中总的记录数
+        $count = D('dept')->count();
+        //echo $count;die;
+
+        $page = new \Think\Page($count,$pagesize);
+
+        $p = $page->show();
+        $this->assign('p',$p);
         $this->display('index');
     }
 

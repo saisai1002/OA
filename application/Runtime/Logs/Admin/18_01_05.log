@@ -24,3 +24,212 @@ ERR: 1062:Duplicate entry '人力资源部' for key 'dept_name'
 [ 2018-01-05T14:23:29+08:00 ] 127.0.0.1 /Dept/index.html
 ERR: syntax error, unexpected '$data' (T_VARIABLE)
 
+[ 2018-01-05T15:48:31+08:00 ] 127.0.0.1 /css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-05T15:48:31+08:00 ] 127.0.0.1 /css/info-mgt.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-05T15:48:31+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:31+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:31+08:00 ] 127.0.0.1 /js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:31+08:00 ] 127.0.0.1 /css/WdatePicker.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-05T15:48:31+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:31+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:31+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:31+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:32+08:00 ] 127.0.0.1 /js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:32+08:00 ] 127.0.0.1 /css/info-reg.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-05T15:48:32+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:32+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:32+08:00 ] 127.0.0.1 /css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-05T15:48:32+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:32+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:33+08:00 ] 127.0.0.1 /css/WdatePicker.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-05T15:48:33+08:00 ] 127.0.0.1 /css/info-mgt.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-05T15:48:33+08:00 ] 127.0.0.1 /js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:33+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:33+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:33+08:00 ] 127.0.0.1 /css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-05T15:48:33+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:33+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:33+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T15:48:34+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-05T16:30:45+08:00 ] 127.0.0.1 /User/index.html
+ERR: 1054:Unknown column 'u.user_dept_id' in 'on clause'
+ [ SQL语句 ] : SELECT a.*,d.dept_name FROM oa_user a left join oa_dept as d on u.user_dept_id = d.dept_id  
+
+[ 2018-01-05T16:32:07+08:00 ] 127.0.0.1 /User/index.html
+ERR: 1051:Unknown table 'a'
+ [ SQL语句 ] : SELECT a.*,d.dept_name FROM oa_user u left join oa_dept as d on u.user_dept_id = d.dept_id  
+
+[ 2018-01-05T16:32:08+08:00 ] 127.0.0.1 /User/index.html
+ERR: 1051:Unknown table 'a'
+ [ SQL语句 ] : SELECT a.*,d.dept_name FROM oa_user u left join oa_dept as d on u.user_dept_id = d.dept_id  
+
+[ 2018-01-05T16:32:08+08:00 ] 127.0.0.1 /User/index.html
+ERR: 1051:Unknown table 'a'
+ [ SQL语句 ] : SELECT a.*,d.dept_name FROM oa_user u left join oa_dept as d on u.user_dept_id = d.dept_id  
+
+[ 2018-01-05T16:32:08+08:00 ] 127.0.0.1 /User/index.html
+ERR: 1051:Unknown table 'a'
+ [ SQL语句 ] : SELECT a.*,d.dept_name FROM oa_user u left join oa_dept as d on u.user_dept_id = d.dept_id  
+
+[ 2018-01-05T16:35:54+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:36:31+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:36:47+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:36:48+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:36:48+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:36:48+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:39:02+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:39:17+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:42:49+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:44:38+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:49:03+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:49:04+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:49:41+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:49:46+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected 'else' (T_ELSE)
+
+[ 2018-01-05T16:50:24+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:50:25+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:50:25+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:50:26+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:51:04+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:51:14+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:52:14+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:56:01+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:56:19+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '{'
+
+[ 2018-01-05T16:58:20+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:58:20+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T16:58:20+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2018-01-05T17:10:32+08:00 ] 127.0.0.1 /User/index.html
+ERR: syntax error, unexpected ';', expecting ']'
+
+[ 2018-01-05T18:59:16+08:00 ] 127.0.0.1 /User/delete/user_id/2.html
+ERR: 非法操作:delete
+
+[ 2018-01-05T19:14:31+08:00 ] 127.0.0.1 /User/edit/user_id/1.html
+ERR: syntax error, unexpected ')'
+
+[ 2018-01-05T19:14:55+08:00 ] 127.0.0.1 /User/edit/user_id/1.html
+ERR: syntax error, unexpected ')'
+
+[ 2018-01-05T19:17:00+08:00 ] 127.0.0.1 /User/edit/user_id/1.html
+ERR: syntax error, unexpected ')'
+
+[ 2018-01-05T19:17:48+08:00 ] 127.0.0.1 /User/edit/user_id/1.html
+ERR: syntax error, unexpected ')'
+
+[ 2018-01-05T19:18:56+08:00 ] 127.0.0.1 /User/edit/user_id/1.html
+ERR: syntax error, unexpected ')'
+
+[ 2018-01-05T19:52:39+08:00 ] 127.0.0.1 /User/delete/user_id/3.html
+ERR: Too few arguments to function Think\Model::where(), 0 passed in /Applications/MAMP/htdocs/OA/application/Admin/Controller/UserController.class.php on line 78 and at least 1 expected
+
+[ 2018-01-05T22:06:21+08:00 ] 127.0.0.1 /User/index.html
+ERR: Call to undefined function Think\Page()
+
+[ 2018-01-05T22:06:23+08:00 ] 127.0.0.1 /User/index.html
+ERR: Call to undefined function Think\Page()
+

@@ -41,13 +41,16 @@
                 <td class="node"><?php echo ($vo["dept_sort"]); ?></td>
                 <td class="time"><?php echo ($vo["dept_remark"]); ?></td>
                 <td class="operate">
-                	<a href="<?php echo U('delete', 'dept_id='.$vo['dept_id']);?>">删除</a>&nbsp;&nbsp;|
-                	<a href="<?php echo U('edit', 'dept_id='.$vo['dept_id']);?>">编辑</a>
+                    <a href="<?php echo U('edit', 'dept_id='.$vo['dept_id']);?>">编辑</a>
+                    |
+                    <a href="<?php echo U('delete', 'dept_id='.$vo['dept_id']);?>">删除</a>&nbsp;&nbsp;
                 </td>
             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>
     </table>
 </div>
+
+<div class="pagination ue-clear"><?php echo ($p); ?></div>
 <!--<div class="pagination ue-clear">-->
 	<!--<input type="button" value="全选" onclick="selectAll()" /> -->
 	<!--<input type="button" value="全消" onclick="cancelAll()" />-->

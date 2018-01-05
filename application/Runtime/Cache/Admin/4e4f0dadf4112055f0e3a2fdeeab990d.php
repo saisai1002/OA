@@ -29,7 +29,12 @@
         </h2>
         <ul class="nav">
           <li class="office current">
-            <div class="nav-header"><a href="javascript:;" date-src="home.html" class="ue-clear"><span>日常办公</span><i class="icon"></i></a></div>
+            <div class="nav-header"><a href="javascript:;" date-src="home.html" class="ue-clear"><span>用户管理</span><i class="icon"></i></a></div>
+
+            <ul class="subnav">
+              <li><a href="javascript:;" date-src="<?php echo U('User/index');?>">用户列表</a></li>
+              <li><a href="javascript:;" date-src="<?php echo U('User/add');?>">添加用户</a></li>
+            </ul>
           </li>
           <li class="gongwen">
             <div class="nav-header"><a href="javascript:;" class="ue-clear"><span>公文起草</span><i class="icon"></i></a></div>
