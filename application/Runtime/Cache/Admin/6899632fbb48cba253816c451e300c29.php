@@ -25,13 +25,13 @@
 
 <body>
 <div class="title"><h2>信息管理</h2></div>
-<!--<div class="table-operate ue-clear">-->
+<div class="table-operate ue-clear">
 	<!--<a href="javascript:;" class="add">添加</a>-->
     <!--<a href="javascript:;" class="del">删除</a>-->
     <!--<a href="javascript:;" class="edit">编辑</a>-->
-    <!--<a href="javascript:;" class="count">统计</a>-->
-    <!--<a href="javascript:;" class="check">审核</a>-->
-<!--</div>-->
+    <a href="<?php echo U('User/count');?>" class="count">统计</a>
+    <a href="javascript:;" class="check">审核</a>
+</div>
 <div class="table-box">
 	<table>
     	<thead>

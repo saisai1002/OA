@@ -17,6 +17,7 @@ return array(
         '__ADMINCSS__' =>  '/Public/Admin/css',
         '__ADMINJS__'  =>  '/Public/Admin/js',
         '__ADMINIMG__' =>  '/Public/Admin/images',
+        '__COMMON__' =>  '/Public/Common/',
     ),
 
     //允许访问的模块

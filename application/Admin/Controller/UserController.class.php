@@ -96,4 +96,23 @@ class UserController extends Controller{
         }
 
     }
+
+    //统计用户表中每个部门的人数
+    public function count(){
+        $data = D('user')->alias('u')
+            ->field('d.dept_name,count(*) as num')
+            ->join('left join oa_dept as d on u.user_dept_id = d.dept_id')
+            ->group('u.user_dept_id')
+            ->select();
+
+        $result = "";
+        foreach ($data as $value){
+            $result .= "['".$value['dept_name']."',".$value['num']."],";
+        }
+        //dump($result);die;
+        $this->assign('result',$result);
+        $this->display();
+    }
+
+
 }
