@@ -35,14 +35,14 @@
         		<td style="width:30px"><input type="checkbox" name="c" value="<?php echo ($vo["dept_id"]); ?>" /></td>
             	<td class="num"><?php echo ($vo["dept_id"]); ?></td>
                 <td class="name">
-                	<?php echo (str_repeat('---',$vo["dept_level"])); echo ($vo["dept_name"]); ?>
+                    <?php echo (str_repeat('&nbsp;',$vo["dept_level"]*4)); echo ($vo["dept_name"]); ?>
                 </td>
                 <td class="process"><?php echo ((isset($vo["name"]) && ($vo["name"] !== ""))?($vo["name"]):'顶级部门'); ?></td>
                 <td class="node"><?php echo ($vo["dept_sort"]); ?></td>
                 <td class="time"><?php echo ($vo["dept_remark"]); ?></td>
                 <td class="operate">
-                	<a href="<?php echo U('del', 'id='.$vo['dept_id']);?>">删除</a>&nbsp;&nbsp;|
-                	<a href="<?php echo U('edit', 'id='.$vo['dept_id']);?>">编辑</a>
+                	<a href="<?php echo U('delete', 'dept_id='.$vo['dept_id']);?>">删除</a>&nbsp;&nbsp;|
+                	<a href="<?php echo U('edit', 'dept_id='.$vo['dept_id']);?>">编辑</a>
                 </td>
             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>

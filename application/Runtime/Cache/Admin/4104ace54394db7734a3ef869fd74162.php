@@ -9,7 +9,7 @@
 
 <body>
 <div class="title"><h2>部门信息</h2></div>
-<form action="<?php echo U('addOk');?>" method="post">
+<form action="" method="post">
 <div class="main">
     <p class="short-input ue-clear">
     	<label>部门名称：</label>
@@ -35,7 +35,7 @@
 </div>
 <div class="btn ue-clear">
 	<a href="javascript:;" class="confirm">确定</a>
-    <a href="javascript:;" class="clear">返回</a>
+    <a href="<?php echo U('Dept/index');?>" class="clear">返回</a>
 </div>
 </form>
 </body>
@@ -47,6 +47,13 @@
 $(".confirm").click(function () {
     $("form").submit();
 });
+
+
+
+
+
+
+
 
 $(".select-title").on("click",function(){
 	$(".select-list").toggle();

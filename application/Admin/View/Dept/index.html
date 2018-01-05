@@ -36,14 +36,14 @@
         		<td style="width:30px"><input type="checkbox" name="c" value="{$vo.dept_id}" /></td>
             	<td class="num">{$vo.dept_id}</td>
                 <td class="name">
-                	{$vo.dept_level|str_repeat='---',###}{$vo.dept_name}
+                    {$vo.dept_level|str_repeat='&nbsp;',###*4}{$vo.dept_name}
                 </td>
                 <td class="process">{$vo.name|default='顶级部门'}</td>
                 <td class="node">{$vo.dept_sort}</td>
                 <td class="time">{$vo.dept_remark}</td>
                 <td class="operate">
-                	<a href="{:U('del', 'id='.$vo['dept_id'])}">删除</a>&nbsp;&nbsp;|
-                	<a href="{:U('edit', 'id='.$vo['dept_id'])}">编辑</a>
+                	<a href="{:U('delete', 'dept_id='.$vo['dept_id'])}">删除</a>&nbsp;&nbsp;|
+                	<a href="{:U('edit', 'dept_id='.$vo['dept_id'])}">编辑</a>
                 </td>
             </tr>
             </volist>

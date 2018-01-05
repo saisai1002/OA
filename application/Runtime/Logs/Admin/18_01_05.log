@@ -1,0 +1,26 @@
+[ 2018-01-05T12:19:28+08:00 ] 127.0.0.1 /
+ERR: 非法操作:index
+
+[ 2018-01-05T12:25:47+08:00 ] 127.0.0.1 /Dept/del/id/4.html
+ERR: 非法操作:del
+
+[ 2018-01-05T12:58:23+08:00 ] 127.0.0.1 /Dept/index.html
+ERR: 1054:Unknown column 'd2.dept_name' in 'field list'
+ [ SQL语句 ] : SELECT d1.dept_id,d1.dept_name,d1.dept_sort,d1.dept_remark,d2.dept_name as name FROM oa_dept d1 left join oa_dept on d1.dept_pid = d2.dept_id  
+
+[ 2018-01-05T13:25:17+08:00 ] 127.0.0.1 /Dept/index.html
+ERR: syntax error, unexpected '?>', expecting ',' or ')'
+
+[ 2018-01-05T13:33:40+08:00 ] 127.0.0.1 /Dept/index.html
+ERR: Using $this when not in object context
+
+[ 2018-01-05T13:33:55+08:00 ] 127.0.0.1 /Dept/index.html
+ERR: Using $this when not in object context
+
+[ 2018-01-05T14:19:32+08:00 ] 127.0.0.1 /Dept/edit/dept_id/3.html
+ERR: 1062:Duplicate entry '人力资源部' for key 'dept_name'
+ [ SQL语句 ] : INSERT INTO `oa_dept` (`dept_name`,`dept_pid`,`dept_sort`,`dept_remark`,`dept_updated`) VALUES ('人力资源部','0','3','人力资源部........fff','2018-01-05 14:19:32')
+
+[ 2018-01-05T14:23:29+08:00 ] 127.0.0.1 /Dept/index.html
+ERR: syntax error, unexpected '$data' (T_VARIABLE)
+
