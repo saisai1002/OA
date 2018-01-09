@@ -23,16 +23,16 @@
                     <p class="yzm ue-clear">
                     	<label>验证码</label>
                         <input type="text" />
-                        <cite>X394D</cite>
+                        <cite><img  id="verify" src="<?php echo U('verify');?>" alt=""></cite>
                     </p>
                 </div>
                 <div class="login-btn ue-clear">
                 	<a href="index.html" class="btn">登录</a>
-                    <div class="remember ue-clear">
-                    	<input type="checkbox" id="remember" />
-                        <em></em>
-                        <label for="remember">记住密码</label>
-                    </div>
+                    <!--<div class="remember ue-clear">-->
+                    	<!--<input type="checkbox" id="remember" />-->
+                        <!--<em></em>-->
+                        <!--&lt;!&ndash;<label for="remember">记住密码</label>&ndash;&gt;-->
+                    <!--</div>-->
                 </div>
             </div>
 		</div>
@@ -42,6 +42,19 @@
 <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
 <script type="text/javascript" src="/Public/Admin/js/common.js"></script>
 <script type="text/javascript">
+    //验证码单机刷新产生新的验证码
+    $("#verify").click(function () {
+        $(this).attr({"src" : "/Admin/Index/verify/_/"+Math.random()});
+    });
+
+
+
+
+
+
+
+
+
 var height = $(window).height();
 $("#container").height(height);
 $("#bd").css("padding-top",height/2 - $("#bd").height()/2);
