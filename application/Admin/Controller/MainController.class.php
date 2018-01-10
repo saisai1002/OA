@@ -31,6 +31,5 @@ class MainController extends CommonController{
         //将session中的值清除
         session(null);
         $this->success('退出系统成功',U('Index/login'),3);
-
     }
 }
