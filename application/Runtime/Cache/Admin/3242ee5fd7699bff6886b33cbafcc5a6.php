@@ -7,6 +7,7 @@
 	<title>移动办公自动化系统</title>
 </head>
 <body>
+<form action="" method="post">
 	<div id="container">
 		<div id="bd">
 			<div class="login1">
@@ -14,20 +15,20 @@
                 <div class="login-input">
                 	<p class="user ue-clear">
                     	<label>用户名</label>
-                        <input type="text" />
+                        <input type="text" name="user_name" placeholder="用户名"/>
                     </p>
                     <p class="password ue-clear">
                     	<label>密&nbsp;&nbsp;&nbsp;码</label>
-                        <input type="text" />
+                        <input type="text" name="user_password" placeholder="密码"/>
                     </p>
                     <p class="yzm ue-clear">
                     	<label>验证码</label>
-                        <input type="text" />
+                        <input type="text" name="code" placeholder="验证码"/>
                         <cite><img  id="verify" src="<?php echo U('verify');?>" alt=""></cite>
                     </p>
                 </div>
                 <div class="login-btn ue-clear">
-                	<a href="index.html" class="btn">登录</a>
+                	<a  class="btn">登录</a>
                     <!--<div class="remember ue-clear">-->
                     	<!--<input type="checkbox" id="remember" />-->
                         <!--<em></em>-->
@@ -37,7 +38,9 @@
             </div>
 		</div>
 	</div>
-    <div id="ft">CopyRight&nbsp;2014&nbsp;&nbsp;版权所有&nbsp;&nbsp;uimaker.com专注于ui设计&nbsp;&nbsp;苏ICP备09003079号</div>
+</form>
+    <div id="ft">CopyRight&nbsp;2018&nbsp;&nbsp;版权所有&nbsp;&nbsp;uimaker.com专注于ui设计&nbsp;&nbsp;苏ICP备09003079号</div>
+
 </body>
 <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
 <script type="text/javascript" src="/Public/Admin/js/common.js"></script>
@@ -48,7 +51,10 @@
     });
 
 
-
+    $(".btn").click(function () {
+        //alert(111)
+        $("form").submit();
+    });
 
 
 
@@ -63,7 +69,7 @@ $(window).resize(function(){
 	var height = $(window).height();
 	$("#bd").css("padding-top",$(window).height()/2 - $("#bd").height()/2);
 	$("#container").height(height);
-	
+
 });
 
 $('#remember').focus(function(){

@@ -1,13 +1,13 @@
-<!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="__ADMINCSS__/base.css" />
-	<link rel="stylesheet" href="__ADMINCSS__/login.css" />
+	<link rel="stylesheet" href="/Public/Admin/css/base.css" />
+	<link rel="stylesheet" href="/Public/Admin/css/login.css" />
 	<title>移动办公自动化系统</title>
 </head>
 <body>
-<form action="" method="post">
+<form action="<?php echo U('login');?>" method="post">
 	<div id="container">
 		<div id="bd">
 			<div class="login1">
@@ -15,20 +15,20 @@
                 <div class="login-input">
                 	<p class="user ue-clear">
                     	<label>用户名</label>
-                        <input type="text" name="user_name" placeholder="用户名"/>
+                        <input type="text" name="user_name"/>
                     </p>
                     <p class="password ue-clear">
                     	<label>密&nbsp;&nbsp;&nbsp;码</label>
-                        <input type="text" name="user_password" placeholder="密码"/>
+                        <input type="text" name="user_password"/>
                     </p>
                     <p class="yzm ue-clear">
                     	<label>验证码</label>
-                        <input type="text" name="code" placeholder="验证码"/>
-                        <cite><img  id="verify" src="{:U('verify')}" alt=""></cite>
+                        <input type="text" name="code" />
+                        <cite><img  id="verify" src="<?php echo U('verify');?>" alt=""></cite>
                     </p>
                 </div>
                 <div class="login-btn ue-clear">
-                	<a  class="btn">登录</a>
+                	<a href="index.html" class="btn">登录</a>
                     <!--<div class="remember ue-clear">-->
                     	<!--<input type="checkbox" id="remember" />-->
                         <!--<em></em>-->
@@ -40,21 +40,20 @@
 	</div>
 </form>
     <div id="ft">CopyRight&nbsp;2018&nbsp;&nbsp;版权所有&nbsp;&nbsp;uimaker.com专注于ui设计&nbsp;&nbsp;苏ICP备09003079号</div>
-
 </body>
-<script type="text/javascript" src="__ADMINJS__/jquery.js"></script>
-<script type="text/javascript" src="__ADMINJS__/common.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/common.js"></script>
 <script type="text/javascript">
     //验证码单机刷新产生新的验证码
     $("#verify").click(function () {
-        $(this).attr({"src" : "__CONTROLLER__/verify/_/"+Math.random()});
+        $(this).attr({"src" : "/Admin/Index/verify/_/"+Math.random()});
     });
 
 
     $(".btn").click(function () {
         //alert(111)
         $("form").submit();
-    });
+    })
 
 
 
@@ -69,7 +68,7 @@ $(window).resize(function(){
 	var height = $(window).height();
 	$("#bd").css("padding-top",$(window).height()/2 - $("#bd").height()/2);
 	$("#container").height(height);
-
+	
 });
 
 $('#remember').focus(function(){

@@ -1,0 +1,21 @@
+[ 2018-01-10T15:07:48+08:00 ] 127.0.0.1 /
+ERR: 非法操作:index
+
+[ 2018-01-10T15:07:48+08:00 ] 127.0.0.1 /
+ERR: 非法操作:index
+
+[ 2018-01-10T15:09:03+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: 非法操作:index
+
+[ 2018-01-10T15:10:25+08:00 ] 127.0.0.1 /Admin/Index/index.html
+ERR: 非法操作:index
+
+[ 2018-01-10T15:31:06+08:00 ] 127.0.0.1 /Index/checkLogin.html
+ERR: 非法操作:checkLogin
+
+[ 2018-01-10T15:45:10+08:00 ] 127.0.0.1 /Index/login.html
+ERR: Think\Model:checkLogin方法不存在！
+
+[ 2018-01-10T15:47:06+08:00 ] 127.0.0.1 /Index/login.html
+ERR: Think\Model:checkLogin方法不存在！
+

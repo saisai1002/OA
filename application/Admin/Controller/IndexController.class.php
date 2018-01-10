@@ -1,10 +1,33 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
+use Think\Verify;
+
 class IndexController extends Controller {
     //后台登录首页面
     public function login(){
-        $this->display('login');
+            //若是post提交则验证验证码和用户名以及密码的合法性
+            if (IS_POST){
+                $code = I('post.code');
+                $verify = new Verify();
+                $result = $verify->check($code);
+                if(!$result){
+                    $this->error('验证码错误',U('login'),3);
+                }
+                $user_name = I('post.user_name');
+                $user_password = I('post.user_password');
+                //调用模型中的方法
+
+                $res = D('User')->checkLogin($user_name,$user_password);
+                //dump($res);die;
+                if ($res){
+                    $this->success('登录成功',U('Main/index'),3);
+                }else{
+                    $this->error('用户名或密码错误',U('Main/login'),3);
+                }
+            }else{
+                $this->display('login');
+            }
     }
 
 
@@ -31,7 +54,7 @@ class IndexController extends Controller {
 
             //'reset'     =>  true,           // 验证成功后是否重置
         );
-        $verify = new \Think\Verify($config);
+        $verify = new Verify($config);
         $verify->entry();
     }
 }
