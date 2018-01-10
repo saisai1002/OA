@@ -18,6 +18,7 @@ class UserModel extends Model
             return false;
         }elseif ($info['user_password'] == $user_password){
             session('user_id',$info['user_id']);
+            session('user_name',$info['user_name']);
             session('user_password',$info['user_password']);
             session('user_nickname',$info['user_nickname']);
             session('user_dept_id',$info['user_dept_id']);

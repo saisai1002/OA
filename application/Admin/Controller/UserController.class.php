@@ -7,9 +7,8 @@
  */
 
 namespace Admin\Controller;
-use Think\Controller;
 
-class UserController extends Controller{
+class UserController extends CommonController{
     //显示用户列表
     public function index(){
         $pagesize = 2;

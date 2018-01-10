@@ -7,9 +7,8 @@
  */
 
 namespace Admin\Controller;
-use Think\Controller;
 
-class DeptController extends Controller{
+class DeptController extends CommonController{
 
 
     //显示部门列表页
