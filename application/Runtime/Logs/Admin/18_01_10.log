@@ -25,3 +25,123 @@ ERR: 非法操作:login
 [ 2018-01-10T16:22:06+08:00 ] 127.0.0.1 /Main/login.html
 ERR: 非法操作:login
 
+[ 2018-01-10T18:55:41+08:00 ] 127.0.0.1 /js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:41+08:00 ] 127.0.0.1 /css/WdatePicker.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-10T18:55:41+08:00 ] 127.0.0.1 /css/info-mgt.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-10T18:55:41+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:41+08:00 ] 127.0.0.1 /css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-10T18:55:41+08:00 ] 127.0.0.1 /js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:41+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:41+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:41+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:41+08:00 ] 127.0.0.1 /js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:41+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:41+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:42+08:00 ] 127.0.0.1 /js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:42+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:42+08:00 ] 127.0.0.1 /css/info-reg.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-10T18:55:42+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:42+08:00 ] 127.0.0.1 /css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-10T18:55:42+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:42+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:43+08:00 ] 127.0.0.1 /css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-10T18:55:43+08:00 ] 127.0.0.1 /css/info-mgt.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-10T18:55:43+08:00 ] 127.0.0.1 /js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:43+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:43+08:00 ] 127.0.0.1 /css/WdatePicker.css
+ERR: 无法加载控制器:Css
+
+[ 2018-01-10T18:55:43+08:00 ] 127.0.0.1 /js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:43+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:43+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:43+08:00 ] 127.0.0.1 /js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:43+08:00 ] 127.0.0.1 /js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:43+08:00 ] 127.0.0.1 /js/WdatePicker.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:55:43+08:00 ] 127.0.0.1 /js/jquery.pagination.js
+ERR: 无法加载控制器:Js
+
+[ 2018-01-10T18:56:27+08:00 ] 127.0.0.1 /Public/Admin/csss/base.css
+ERR: 无法加载控制器:Public
+
+[ 2018-01-10T18:56:27+08:00 ] 127.0.0.1 /Public/Admin/csss/info-mgt.css
+ERR: 无法加载控制器:Public
+
+[ 2018-01-10T18:56:27+08:00 ] 127.0.0.1 /Public/Admin/csss/WdatePicker.css
+ERR: 无法加载控制器:Public
+
+[ 2018-01-10T18:56:28+08:00 ] 127.0.0.1 /Public/Admin/csss/WdatePicker.css
+ERR: 无法加载控制器:Public
+
+[ 2018-01-10T18:56:28+08:00 ] 127.0.0.1 /Public/Admin/csss/info-mgt.css
+ERR: 无法加载控制器:Public
+
+[ 2018-01-10T18:56:28+08:00 ] 127.0.0.1 /Public/Admin/csss/base.css
+ERR: 无法加载控制器:Public
+
+[ 2018-01-10T18:56:34+08:00 ] 127.0.0.1 /Public/Admin/csss/WdatePicker.css
+ERR: 无法加载控制器:Public
+
+[ 2018-01-10T18:56:34+08:00 ] 127.0.0.1 /Public/Admin/csss/base.css
+ERR: 无法加载控制器:Public
+
+[ 2018-01-10T18:56:34+08:00 ] 127.0.0.1 /Public/Admin/csss/info-mgt.css
+ERR: 无法加载控制器:Public
+
