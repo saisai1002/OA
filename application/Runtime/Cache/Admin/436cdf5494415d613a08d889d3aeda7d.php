@@ -16,8 +16,8 @@
 </head>
 
 <body>
-<div class="title"><h2>信息登记</h2></div>
-<form action="/Admin/Doc/addOk" method="post" enctype='multipart/form-data'>
+<div class="title"><h2>公文信息</h2></div>
+<form action="" method="post" enctype='multipart/form-data'>
 <div class="main">
     <p class="short-input ue-clear">
     	<label>标题：</label>
@@ -36,7 +36,7 @@
 	<div style='clear:both;'></div>
 </div>
 <div class="btn ue-clear">
-	<a href="javascript:;" class="confirm" >确定</a>
+	<a  class="confirm" >确定</a>
     <a href="<?php echo U('Doc/index');?>" class="clear" id='btnReset'>返回</a>
 </div>
 </form>
@@ -50,28 +50,31 @@
     //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
     var ue = UE.getEditor('editor');
 
+    $(".confirm").click(function () {
+		$("form").submit();
+    })
 
 
 
-$(function(){
-	$('#btnSubmit').bind('click',function(){
-		$('form').submit();
-	});
-	
-	$('#btnReset').bind('click',function(){
-		$('form')[0].reset();
-	});
-});	
-
-$(".select-title").on("click",function(){
-	$(".select-list").toggle();
-	return false;
-});
-$(".select-list").on("click","li",function(){
-	var txt = $(this).text();
-	$(".select-title").find("span").text(txt);
-});
-
-showRemind('input[type=text], textarea','placeholder');
+//$(function(){
+//	$('#btnSubmit').bind('click',function(){
+//        $('form').submit();
+//    });
+//
+//    $('#btnReset').bind('click',function(){
+//        $('form')[0].reset();
+//    });
+//    });
+//
+//    $(".select-title").on("click",function(){
+//        $(".select-list").toggle();
+//        return false;
+//    });
+//    $(".select-list").on("click","li",function(){
+//        var txt = $(this).text();
+//        $(".select-title").find("span").text(txt);
+//    });
+//
+//    showRemind('input[type=text], textarea','placeholder');
 </script>
 </html>

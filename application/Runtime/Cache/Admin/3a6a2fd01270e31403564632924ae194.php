@@ -18,12 +18,12 @@
 </head>
 
 <body>
-<div class="title"><h2>信息管理</h2></div>
-<div class="table-operate ue-clear">
-	<a href="/thinkoa/index.php/admin/doc/add" class="add">添加</a>
-    <a href="javascript:;" class="del" id='btnDel'>删除</a>
-    <a href="javascript:;" class="edit" id='btnEdit'>编辑</a>
-</div>
+<div class="title"><h2>公文管理</h2></div>
+<!--<div class="table-operate ue-clear">-->
+	<!--<a href="/thinkoa/index.php/admin/doc/add" class="add">添加</a>-->
+    <!--<a href="javascript:;" class="del" id='btnDel'>删除</a>-->
+    <!--<a href="javascript:;" class="edit" id='btnEdit'>编辑</a>-->
+<!--</div>-->
 <div class="table-box">
 	<table>
     	<thead>
@@ -38,35 +38,26 @@
             </tr>
         </thead>
         <tbody>
-        	<tr>
-            	<td class="num">2</td>
-                <td class="name">关于召开中国施工企业管理协会第31次年会的通知</td>
+
+        <?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr>
+            	<td class="num"><?php echo ($vo["doc_id"]); ?></td>
+                <td class="name"><?php echo ($vo["doc_name"]); ?></td>
                 <td class="process">
-                	<a class='show'>查看全文</a>
+                	<a href="" class='show'>查看详情</a>
                 </td>
 				<td class="file">
 					<a href='/thinkoa/index.php/Admin/Doc/download/id/2'>附件下载</a>
 				</td>
-                <td class="node">任逍遥</td>
-                <td class="time">2016-04-06 10:12:38</td>
+                <td class="node"><?php echo ($vo["doc_nickname"]); ?></td>
+                <td class="time"><?php echo ($vo["doc_created"]); ?></td>
                 <td class="operate">
-                	<input type='checkbox' name='checkbox' value='2' />
+                    <a href="<?php echo U('edit','doc_id='.$vo['doc_id']);?>">编辑</a>
+                    |
+                    <a href="<?php echo U('delete','doc_id='.$vo['doc_id']);?>">删除</a>
                 </td>
-            </tr><tr>
-            	<td class="num">1</td>
-                <td class="name">关于申报2015年度中国施工企业管理协会科学技术奖的通知</td>
-                <td class="process">
-                	<a class='show'>查看全文</a>
-                </td>
-				<td class="file">
-					<a href='/thinkoa/index.php/Admin/Doc/download/id/1'>附件下载</a>
-				</td>
-                <td class="node">任逍遥</td>
-                <td class="time">2016-04-06 09:51:59</td>
-                <td class="operate">
-                	<input type='checkbox' name='checkbox' value='1' />
-                </td>
-            </tr>        </tbody>
+            </tr><?php endforeach; endif; ?>
+
+        </tbody>
     </table>
 </div>
 </body>

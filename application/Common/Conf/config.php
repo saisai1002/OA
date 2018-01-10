@@ -26,6 +26,6 @@ return array(
     //默认访问的模块
     'DEFAULT_MODULE'    => 'Admin',
 
-
+    'UPLOAD_PATH'  =>'Uploads/',
 
 );
